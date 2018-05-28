@@ -63,7 +63,7 @@ document.querySelector('.btn-roll').addEventListener('click', () => {
     roundScore += diceValue;
     const diceDOM = document.querySelector('.dice');
     diceDOM.style.display = 'block';
-    diceDOM.src = `dice-${diceValue}.png`;
+    diceDOM.src = `./assets/dice-${diceValue}.png`;
 
     if (diceValue === 1) {
       nextPlayer();
